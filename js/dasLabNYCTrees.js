@@ -230,7 +230,7 @@ map.on('load', function() {
 
 	function shadow(zipcode,species,treeID,treeLat,treeLon,az,amp,darkness,name,bool) {
 
-		var pointCloudFile = ' /folio/folio/';
+		var pointCloudFile = ' http://www.treefolio.org.s3-website-us-east-1.amazonaws.com/folio/folio/';
 		var pointCloudFile = pointCloudFile.concat(zipcode);
 		var pointCloudFile = pointCloudFile.concat('/');
 		var pointCloudFile = pointCloudFile.concat(zipcode);
@@ -305,7 +305,7 @@ map.on('load', function() {
 		document.getElementById("common").innerHTML = species;
 
 		// POINT CLOUD FILE PATH GOES HERE ///////////////////////////////////////////////////////////////////////////////////////
-		var pointCloudFile = ' /folio/folio/';
+		var pointCloudFile = ' http://www.treefolio.org.s3-website-us-east-1.amazonaws.com/folio/folio/';
 		var pointCloudFile = pointCloudFile.concat(zipcode);
 		var pointCloudFile = pointCloudFile.concat('/');
 		var pointCloudFile = pointCloudFile.concat(zipcode);

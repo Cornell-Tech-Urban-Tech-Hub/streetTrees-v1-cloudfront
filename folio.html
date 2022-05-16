@@ -48,7 +48,7 @@
 			console.log(sp);
 
 			// TREE LIST JSONS GO HERE ///////////////////////////////////////////////////////////
-			var csvpath = ' /folio/folio/'.concat(zip,'/',zip,'/',sp,'/trees.json');
+			var csvpath = ' http://www.treefolio.org.s3-website-us-east-1.amazonaws.com/folio/folio/'.concat(zip,'/',zip,'/',sp,'/trees.json');
 			
 			jQuery.when(jQuery.getJSON(csvpath)).done( function(trees) {
 
@@ -93,7 +93,7 @@
 
 					// POINT CLOUD FILE PATH GOES HERE ///////////////////////////////////////////////////////////////////////////////////////
 
-					var pointCloudFile = ' /folio/folio/';
+					var pointCloudFile = ' http://www.treefolio.org.s3-website-us-east-1.amazonaws.com/folio/folio/';
 					var pointCloudFile = pointCloudFile.concat(zipcode);
 					var pointCloudFile = pointCloudFile.concat('/');
 					var pointCloudFile = pointCloudFile.concat(zipcode);
