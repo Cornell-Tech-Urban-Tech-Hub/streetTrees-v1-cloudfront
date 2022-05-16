@@ -510,3 +510,4 @@ map.on('load', function() {
 						[1,1,0,'15',false]
 					]
 				];
+			})
