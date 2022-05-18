@@ -334,7 +334,7 @@ map.on('load', function() {
 			shadow(zipcode,species,treeID,treeLat,treeLon,hour[0],hour[1],hour[2],hour[3],hour[4]);
 			};
 		
-		var link =  'https://designacrossscales.org/public_test/html/folio.html?zipcode='.concat(zipcode,'&species=',species);
+		var link =  './folio.html?zipcode='.concat(zipcode,'&species=',species);
 
 		document.getElementById("common").setAttribute("href", link);  
 		document.getElementById("latin").innerHTML = e.features[0].properties['spc_latin'];
