@@ -306,8 +306,8 @@ map.on('load', function() {
 
 		// POINT CLOUD FILE PATH GOES HERE ///////////////////////////////////////////////////////////////////////////////////////
 		var pointCloudFile = ' ./folio/';
-		var pointCloudFile = pointCloudFile.concat(zipcode);
-		var pointCloudFile = pointCloudFile.concat('/');
+		// var pointCloudFile = pointCloudFile.concat(zipcode);
+		// var pointCloudFile = pointCloudFile.concat('/');
 		var pointCloudFile = pointCloudFile.concat(zipcode);
 		var pointCloudFile = pointCloudFile.concat('/');
 		var pointCloudFile = pointCloudFile.concat(species);
