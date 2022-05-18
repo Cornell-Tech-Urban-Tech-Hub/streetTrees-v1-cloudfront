@@ -231,8 +231,8 @@ map.on('load', function() {
 	function shadow(zipcode,species,treeID,treeLat,treeLon,az,amp,darkness,name,bool) {
 
 		var pointCloudFile = ' ./folio/';
-		var pointCloudFile = pointCloudFile.concat(zipcode);
-		var pointCloudFile = pointCloudFile.concat('/');
+		// var pointCloudFile = pointCloudFile.concat(zipcode);
+		// var pointCloudFile = pointCloudFile.concat('/');
 		var pointCloudFile = pointCloudFile.concat(zipcode);
 		var pointCloudFile = pointCloudFile.concat('/');
 		var pointCloudFile = pointCloudFile.concat(species);
